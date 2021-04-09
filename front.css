@@ -1,0 +1,369 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#frontbg {
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    background: url(https://channeli.in//static/maintainer_site/background.svg); 
+    background-size: cover;
+    background-position: center;
+    padding: 0px;
+}
+
+.mainwindow {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100;
+    margin: 0;
+    padding: 0; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.topside {
+    position: fixed;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.icon {
+    width: 50%;
+    align-self: center;
+    cursor: pointer;
+}
+
+.navigation {
+    width: 50%;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav {
+    background-color: transparent;
+    font-family: "TypoPRO Bebas Neue";
+    border: none;
+    outline: none;
+    padding: 0.5em 1em;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 200;
+    cursor: pointer; 
+    outline: none;
+    border: none; 
+    font-weight: 300; 
+}
+
+.logo {
+    height: 3.5em;
+    padding-left: 180px;
+}
+
+.bottombar {
+    padding-top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.heading {
+    display: inline;
+    font-family: playfair display;
+    font-size: 60.2px;
+    background-image: linear-gradient( to right, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 80%, rgba(255, 255, 255, 0.2) 80%, transparent 80%, transparent 100% );
+    font-weight: 700;
+    color: #f8d16c; 
+    line-height: 7rem; 
+}
+
+.subtext {
+    color: white;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    line-height: 2;
+    
+}
+
+.pc {
+    width: 450px;
+    height: auto;
+}
+
+.headbar {
+    justify-items: center;
+    width: 100%;
+}
+
+.nextpg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.upar {
+    font-size: 32px;
+    font-family: 'Playfair Display';
+    border-bottom: 0.2em #f8d16c solid;
+    display: inline-block;
+    padding-left: 0.8em;
+    color: #3b3736;
+    padding-right: 0.8em;
+    padding-bottom: 0.3em;
+    margin: 0.5em 0 0.5em 0;
+    font-weight: 700;
+    
+}
+
+.section {
+    width: 25% !important;
+    text-align: right;
+    padding: 1rem; 
+
+}
+
+.header {
+    color: #000000;
+    display: inline;
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    
+}
+
+.projectList {
+    display: flex;
+    flex-direction: row !important;
+    flex-wrap: nowrap;
+    width: 1127px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.projectImg {
+    width: 300px;
+    height: auto;
+    margin: auto;
+}
+
+.projectList p {
+    color: #999999;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 1em;
+    margin-top: 0.5em;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    font-weight: lighter;
+}
+
+.view {
+  text-transform: uppercase;
+  display: inline-block;
+  background-color: #fff;
+  padding: 0.5em 1em;
+  font-family: 'TypoPRO Bebas Neue';
+  font-size: 1.5rem;
+  border: 2px solid #263146;
+  color: #263146;
+  cursor: pointer;
+}
+
+.blogsec {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: rgba(0,0,0), .87;
+    justify-content: center;
+    background-color: #ebebeb;
+}
+
+.lasthead {
+    font-size: 32px;
+    font-family: 'Playfair Display';
+    border-bottom: 0.2em #f8d16c solid;
+    display: inline-block;
+    padding-left: 0.8em;
+    color: #3b3736;
+    padding-right: 0.8em;
+    padding-bottom: 0.3em;
+    margin: 0.5em 0 0.5em 0 !important;
+    text-align: center;
+}
+
+.niche {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.lamp {
+   width: 50%;
+   display: inline-block;
+   text-align: center;  
+}
+
+.kitaab {
+    width: 300px;
+    height: auto;
+}
+
+
+.shabd {
+    font-size: 16px;
+    line-height: 1.4285em;
+    box-sizing: inherit;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.read {
+    background-color: transparent;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0.5em 1em;
+    font-family: 'TypoPRO Bebas Neue';
+    font-size: 1.5rem;
+    border: 2px solid #263146;
+    color: #263146;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.together {
+    background-color:#293b52 ;
+}
+
+.sbseniche {
+    background-color: #293b52;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1127px;
+    align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+   
+
+}
+
+.contact {
+    width: 50%;
+
+}
+
+
+.contactus {
+    font-size: 1.5rem;
+    line-height: 2;
+    font-family: "TypoPRO Bebas Neue";
+    color: #fff;
+    padding-top: 28px;
+    ;
+}
+
+.address {
+    color: #ddd;
+    line-height: 1.7;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: left;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.callpic {
+    display: inline-block;
+    
+}
+
+.tring {
+    margin-left: 12px;
+    color: #f8d16c;
+    line-height: 1.4285em;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.mails {
+    margin-left: 12px;
+    color: #f8d16c;
+    line-height: 1.4285em;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.rightabout {
+    display: block;
+    width: 50%;
+}
+
+.baareme {
+    font-size: 1.5rem;
+    line-height: 2;
+    font-family: "TypoPRO Bebas Neue";
+    color: #fff;
+    padding-top: 28px;
+    font-weight: bolder;
+}
+
+.description {
+    color: #ddd;
+    line-height: 1.7;
+    margin: 0 0 1em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    font-size: 14px
+}
+
+.downside {
+    width: 100%;
+    background-color: #263146;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+.git {
+    height: 17.6px;
+    width: 16.48px;
+}
+
+.medium {
+    height: 17.6px;
+    width: 16.48px;
+}
+
+.callicon {
+    height: 14.4px;
+    width: 14;
+}
+.foot {
+    margin-left: 200px;
+    
+}
+
+
+
