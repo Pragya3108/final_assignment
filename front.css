@@ -149,12 +149,12 @@ html, body {
 .projectList {
     display: flex;
     flex-direction: row ;
-    flex-wrap: nowrap;
     width: 100%;
     margin: auto;
     align-items: center;
     justify-content: center;
     font-weight: 600;
+    
 }
 
 
@@ -237,6 +237,14 @@ html, body {
 .kitaab {
     width: 300px;
     height: auto;
+}
+
+@media screen and (max-width:800px) {
+    .niche {
+        flex-direction: column;
+        
+    }
+    
 }
 
 
@@ -419,6 +427,14 @@ html, body {
 .mediumpic {
     padding-left: 8px;
     padding-bottom: 4px;
+}
+
+@media screen and (max-width:800px) {
+    .sbseniche {
+        flex-direction: column;
+        
+    }
+    
 }
 .foot {
     margin-left: 200px;
