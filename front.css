@@ -2,15 +2,17 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    width: 100%;
 }
-#frontbg {
+.frontbg {
     margin: 0;
     height: 100vh;
     width: 100%;
-    background: url(https://channeli.in//static/maintainer_site/background.svg); 
+    background-image: url(https://channeli.in//static/maintainer_site/background.svg);
     background-size: cover;
     background-position: center;
     padding: 0px;
+    
 }
 
 .mainwindow {
@@ -31,6 +33,7 @@ html, body {
     flex-direction: row;
     justify-content: center;
     width: 100%;
+     
 }
 
 .icon {
@@ -40,11 +43,12 @@ html, body {
 }
 
 .navigation {
-    width: 50%;
+    
     display: flex;
     cursor: pointer;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    width: 50%;
 }
 
 .nav {
@@ -63,7 +67,7 @@ html, body {
 }
 
 .logo {
-    height: 3.5em;
+    height: 3em;
     padding-left: 180px;
 }
 
@@ -75,6 +79,8 @@ html, body {
     align-items: center;
     height: 100%;
 }
+
+
 
 .heading {
     display: inline;
@@ -142,14 +148,16 @@ html, body {
 
 .projectList {
     display: flex;
-    flex-direction: row !important;
+    flex-direction: row ;
     flex-wrap: nowrap;
-    width: 1127px;
+    width: 100%;
     margin: auto;
     align-items: center;
     justify-content: center;
     font-weight: 600;
 }
+
+
 
 .projectImg {
     width: 300px;
@@ -166,6 +174,15 @@ html, body {
     font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
     font-weight: lighter;
 }
+@media screen and (max-width:800px) {
+    .projectList {
+        flex-direction: column;
+        
+    }
+    
+}
+
+
 
 .view {
   text-transform: uppercase;
@@ -208,6 +225,8 @@ html, body {
     align-items: center;
     width: 100%;
 }
+
+
 
 .lamp {
    width: 50%;
@@ -289,10 +308,7 @@ html, body {
     font-weight: 500;
 }
 
-.callpic {
-    display: inline-block;
-    
-}
+
 
 .tring {
     margin-left: 12px;
@@ -349,16 +365,60 @@ html, body {
 .git {
     height: 17.6px;
     width: 16.48px;
+    padding: auto;
 }
 
 .medium {
     height: 17.6px;
     width: 16.48px;
+    padding: auto;
 }
+
+.call {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.callpic {
+    height: 15px;
+}
+
 
 .callicon {
     height: 14.4px;
     width: 14;
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.mailpic {
+    height: 15px;
+}
+
+.mail {
+    height: 14.4px;
+    width: 14;
+}
+
+.moreicon {
+    display: flex;
+    flex-direction: row;
+}
+
+.gitpic {
+    padding-right: 8px;
+    padding-bottom: 4px;
+}
+
+.mediumpic {
+    padding-left: 8px;
+    padding-bottom: 4px;
 }
 .foot {
     margin-left: 200px;
