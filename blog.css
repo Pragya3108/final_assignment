@@ -137,6 +137,7 @@ html, body {
 .imgdes {
     box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
     overflow: hidden;
+    border-radius: .3rem .3rem .3rem .3rem!important;
 }
 
 .imgdespic {
@@ -155,6 +156,7 @@ html, body {
 .journey {
     box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
     overflow: hidden;
+    border-radius: .3rem .3rem .3rem .3rem!important;
 }
 
 .journeypic {
@@ -172,6 +174,7 @@ html, body {
 .cms {
     box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
     overflow: hidden;
+    border-radius: .3rem .3rem .3rem .3rem!important;
 }
 
 .cmspic {
@@ -189,6 +192,7 @@ html, body {
 .experience {
     box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
     overflow: hidden;
+    border-radius: .3rem .3rem .3rem .3rem!important;
 }
 
 .experiencepic {
@@ -206,6 +210,7 @@ html, body {
 .app {
     box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
     overflow: hidden;
+    border-radius: .3rem .3rem .3rem .3rem!important;
 }
 
 .apppic {
