@@ -210,7 +210,7 @@ html, body {
   display: inline-block;
   background-color: #fff;
   padding: 0.25em .5em;
-  font-family: 'TypoPRO Bebas Neue';
+  font-family: 'Bebas Neue', cursive;
   font-size: 1rem;
   border: 2px solid #263146;
   color: #263146;
@@ -276,7 +276,7 @@ html, body {
     text-transform: uppercase;
     display: inline-block;
     padding: 0.25em 0.5em;
-    font-family: 'TypoPRO Bebas Neue';
+    font-family: 'Bebas Neue', cursive;
     font-size: 1rem;
     border: 2px solid #263146;
     color: #263146;
@@ -309,7 +309,7 @@ html, body {
 .contactus {
     font-size: 1.5rem;
     line-height: 2;
-    font-family: "TypoPRO Bebas Neue";
+    font-family: 'Bebas Neue', cursive;
     color: #fff;
     padding-top: 28px;
     ;
@@ -357,7 +357,7 @@ html, body {
 .baareme {
     font-size: 1.5rem;
     line-height: 2;
-    font-family: "TypoPRO Bebas Neue";
+    font-family: 'Bebas Neue', cursive;
     color: #fff;
     padding-top: 28px;
     font-weight: bolder;
