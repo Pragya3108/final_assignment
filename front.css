@@ -196,14 +196,14 @@ html, body {
     font-weight: lighter;
 }
 .number {
-    position: absolute;
+    display: none;
     transform: translate(40%, 50%);
     left: 0;
     height: 100%;
     color: rgba(248, 209, 108, 0.5);
     font-size: 15em;
     font-family: 'TypoPRO Bebas Neue';
-    margin-top: -600px;
+    margin-top: -400px;
 }
 .view {
   text-transform: uppercase;
