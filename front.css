@@ -169,8 +169,6 @@ html, body {
     flex-direction: row ;
     padding-right: 16vw;
     padding-left: 16vw;
-    align-items: center;
-    justify-content: center;
     font-weight: 600;
     padding-bottom: 0.75em
     ;
@@ -197,14 +195,23 @@ html, body {
     font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
     font-weight: lighter;
 }
- 
+.number {
+    position: absolute;
+    transform: translate(40%, 50%);
+    left: 0;
+    height: 100%;
+    color: rgba(248, 209, 108, 0.5);
+    font-size: 15em;
+    font-family: 'TypoPRO Bebas Neue';
+    margin-top: -600px;
+}
 .view {
   text-transform: uppercase;
   display: inline-block;
   background-color: #fff;
-  padding: 0.5em 1em;
+  padding: 0.25em .5em;
   font-family: 'TypoPRO Bebas Neue';
-  font-size: 1.5rem;
+  font-size: 1rem;
   border: 2px solid #263146;
   color: #263146;
   cursor: pointer;
@@ -268,9 +275,9 @@ html, body {
     background-color: transparent;
     text-transform: uppercase;
     display: inline-block;
-    padding: 0.5em 1em;
+    padding: 0.25em 0.5em;
     font-family: 'TypoPRO Bebas Neue';
-    font-size: 1.5rem;
+    font-size: 1rem;
     border: 2px solid #263146;
     color: #263146;
     cursor: pointer;

@@ -26,6 +26,7 @@ html, body {
     justify-content: space-between;
     width: 100%;
     background-color: #fff;
+    height: 4em;
     
 }
 
@@ -97,12 +98,14 @@ html, body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-bottom: 2em;
 }
 
 .lower {
     display: flex;
     flex-direction: row; 
     justify-content: space-around;
+    margin-top: 2em;
 }
 
 .mobile {
@@ -111,10 +114,11 @@ html, body {
 
 .eggs {
     display: block;
-    width: calc(33.33333333% - 2em);
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
     border-color: black;
     border-width: 2rem;
     border-radius: .3rem .3rem .3rem .3rem!important;
+    overflow: hidden;
 }
 
 .eggpic {
@@ -131,7 +135,8 @@ html, body {
 }
 
 .imgdes {
-    width: calc(33.33333333% - 2em);
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    overflow: hidden;
 }
 
 .imgdespic {
@@ -144,10 +149,12 @@ html, body {
     margin: 1%;
     border: black;
     border-radius: .3rem .3rem 0 0!important;
+    
 }
 
 .journey {
-    width: calc(33.33333333% - 2em);
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    overflow: hidden;
 }
 
 .journeypic {
@@ -163,7 +170,8 @@ html, body {
 }
 
 .cms {
-    width: calc(33.33333333% - 2em);
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    overflow: hidden;
 }
 
 .cmspic {
@@ -179,7 +187,8 @@ html, body {
 }
 
 .experience {
-    width: calc(33.33333333% - 2em);
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    overflow: hidden;
 }
 
 .experiencepic {
@@ -195,7 +204,8 @@ html, body {
 }
 
 .app {
-    width: calc(33.33333333% - 2em);
+    box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+    overflow: hidden;
 }
 
 .apppic {
@@ -242,9 +252,6 @@ html, body {
     left: 0;
     color: rgba(0,0,0,.4);
 }
-
-
-
 .name {
     text-align: left;
     
@@ -253,11 +260,32 @@ html, body {
 .date {
     text-align: right;
 }
+.downside {
+    width: 100%;
+    background-color: #263146;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0%;
+}
+.medicon {
+    text-align: center;
+    width: 100%;
+    margin: 2em;
+}
+.medium {
+    width: 1.5em;
+}
+.foot {
+        margin-left: 13em;
+        
+    }
 
 @media screen and (max-width:768px) {
     .mobile {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         
     }
     .hamburger{
@@ -286,6 +314,29 @@ html, body {
     .imglogo {
         padding-left: 0em;
         text-align: left;
+    }
+
+}
+
+
+@media screen and (min-width:768px) {
+    .eggs {
+        width: calc(33.33333333% - 2em);
+    }
+    .imgdes {
+        width: calc(33.33333333% - 2em);
+    }
+    .journey {
+        width: calc(33.33333333% - 2em);
+    }
+    .cms {
+        width: calc(33.33333333% - 2em);
+    }
+    .experience {
+        width: calc(33.33333333% - 2em);
+    }
+    .app {
+        width: calc(33.33333333% - 2em);
     }
 
 }
