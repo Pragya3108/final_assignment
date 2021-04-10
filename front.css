@@ -359,12 +359,6 @@ html, body {
 .description {
     color: #ddd;
     line-height: 1.7;
-    margin: 0 0 1em;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
     font-size: 14px
 }
@@ -459,7 +453,9 @@ html, body {
 
     .sbseniche {
         flex-direction: column-reverse;
-        margin-left: 25px;
+        width: 100%;
+        margin-left: 2em;
+        
         
     }
 
